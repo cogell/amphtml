@@ -84,6 +84,7 @@ function buildExtensions(options) {
   buildExtension('amp-instagram', '0.1', false, options);
   buildExtension('amp-lightbox', '0.1', false, options);
   buildExtension('amp-list', '0.1', false, options);
+  buildExtension('amp-giphy', '0.1', false, options);
   buildExtension('amp-mustache', '0.1', false, options);
   buildExtension('amp-pinterest', '0.1', true, options);
   buildExtension('amp-install-serviceworker', '0.1', false, options);
@@ -326,6 +327,7 @@ function buildExamples(watch) {
   buildExample('everything.amp.html');
   buildExample('font.amp.html');
   buildExample('facebook.amp.html');
+  buildExample('giphy.amp.html');
   buildExample('instagram.amp.html');
   buildExample('pinterest.amp.html');
   buildExample('released.amp.html');
